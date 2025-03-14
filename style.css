@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     gap: 20px;
     background: white;
@@ -14,10 +14,14 @@
     font-family: Arial, sans-serif;
 }
 
-.painel-esquerdo{
-    background-color: aqua;
+.painel-esquerdo {
+    background-color: #e7efff;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
-    height: 100px;
+    height: 300px;
+}
+
+.robot {
+    text-align: center;
 }
