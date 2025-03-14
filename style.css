@@ -6,3 +6,18 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.painel-esquerdo{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
