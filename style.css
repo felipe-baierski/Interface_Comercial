@@ -15,12 +15,13 @@
 }
 
 .painel-esquerdo {
-    background-color: #e7efff;
+    background-color: #e3f2fd;
     padding: 20px;
     border-radius: 10px;
-    width: 500px;
+    width: 1200px;
     height: 300px;
     display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .padding-como-posso-ajudar {
@@ -40,6 +41,23 @@
     color: blue;
 }
 
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background: #0056b3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 10px;
+}
+
 /* CSS VINICIUS */
 .body {
     font-family: Arial, sans-serif;
@@ -47,21 +65,16 @@
     padding: 20px;
 }
 
-.container {
-    display: flex;
-    gap: 20px;
-}
-
 .box {
     background: #e3f2fd;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 1200px;
 }
 
 .recomendacoes {
     overflow: hidden;
-    position: relative;
 }
 
 .carousel {
@@ -90,6 +103,14 @@
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+.box2 {
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80000px;
 }
 
 .painel-produto {
@@ -138,13 +159,42 @@
 }
 
 .line {
-    flex: 1;
     height: 5px;
     background: #ccc;
+    width: 200px;
+    /*tamanho da linha*/
 }
 
 .line.completed {
     background: #28a745;
+    width: 200px;
+    /*tamanho da linha*/
+    max-width: 600px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+}
+
+.completed .circle {
+    border-color: #28a745;
+    background-color: #28a745;
+    color: white;
+}
+
+.in-progress .circle {
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+    color: white;
 }
 
 /* MARIAH ACABA AQUI */

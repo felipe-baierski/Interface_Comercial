@@ -23,15 +23,37 @@
                     <h2 style="color: blue;">Olá, tudo bem?</h2>
                     <h2 style="color: blue;" class="padding-como-posso-ajudar">Como posso ajudar hoje?</h2>
                 </div>
+
+                <div class="buttons">
+                    <div style="display: flex;">
+                        <button>Quero Comprar Material</button><button
+                            style="width: 5%; border-radius: 50px; color: #000; background-color: white;">→</button>
+                    </div>
+                    <div>
+                        <button>Quero Comprar Serviço</button><button
+                            style="width: 5%; border-radius: 50px; color: #000; background-color: white;">→</button>
+                    </div>
+                    <div>
+                        <button>Consultar Fluxo De Procesos</button>
+                        <button style="width: 5%; border-radius: 50px; color: #000; background-color: white;">→</button>
+                    </div>
+                    <div>
+                        <button>Quero Comprar Material</button>
+                        <button style="width: 5%; border-radius: 50px; color: #000; background-color: white;">→</button>
+                    </div>
+                    <div>
+                        <button>Quero Comprar Material</button>
+                        <button style="width: 5%; border-radius: 50px; color: #000; background-color: white;">→</button>
+                    </div>
+
+
+
+
+
+                </div>
             </div>
 
-            <div class="buttons">
-                <button>Quero Comprar Material</button>
-                <button>Quero Comprar Serviço</button>
-                <button>COnsultar Fluxo De Procesos</button>
-                <button>Quero Comprar Material</button>
-                <button>Quero Comprar Material</button>
-            </div>
+
 
         </div>
 
@@ -39,69 +61,148 @@
 
 
         <!-- divisão -->
-
-
-        <!-- divisão -->
-
 
 
         <!-- vinicius -->
         <div class="container">
             <div class="box recomendacoes">
-                <h3>Baseado em suas<br>últimas compras</h3>
-                <div class="carousel">
+                <div style="display: flex; align-items: center;">
+                    <h3 style="padding-right: 550px;">Baseado em suas últimas compras</h3><br>
+                    <h4 style="padding-right: 40px; height: 10px;">Ver todas as recomenfações</h4>
+                    <button
+                        style="width: 40px; height: 40px; border-radius: 100px; color: #000; background-color: white;">→</button>
 
-                    <div><img src="https://http2.mlstatic.com/D_NQ_NP_692187-MLU75794981288_042024-O.webp" alt=""
-                            style="height: 100px;"><br>Papel Sulfite<br>R$ 5,49</div>
-                    <div><img src="https://th.bing.com/th/id/OIP.G3n59YnwRmxlpp8RqLJ-GwAAAA?rs=1&pid=ImgDetMain" alt=""
-                            style="height: 100px;"><br>Senhor Nofaxu<br>R$Infinit</div>
-                    <div><img src="https://th.bing.com/th/id/OIP.7Q-N_4Jvv2VtRkVL-Y1RzAHaGR?rs=1&pid=ImgDetMain" alt=""
-                            style="height: 100px; width: 100px;;"><br>Raptor Blue<br>R$ Um ovo</div>
-                    <div><img src="https://th.bing.com/th/id/OIP.s2XllOPVDxw0m9xm9-GVbgHaF9?rs=1&pid=ImgDetMain" alt=""
-                            style="height: 100px; width: 100px;"><br>Eólica<br>R$ 1000000</div>
-                    <div><img src="https://vignette.wikia.nocookie.net/avengers/images/3/35/Tesserakt-0.png/revision/latest?cb=20181010111657&path-prefix=de" alt="" style="height: 100px; width: 100px;"><br>Tesseract<br>R$ Loki</div>
-                    <div><img src="https://fiesc.com.br/sites/default/files/styles/800x533/public/galeria/2024-10/FS-244.jpg?itok=dxWITsbO" alt=""><br>Caderno 100 folhas<br>R$ 12,90</div>
                 </div>
+                <div class="carousel">
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <div class="carousel-container">
+                        <img src="https://th.bing.com/th/id/OIP.G3n59YnwRmxlpp8RqLJ-GwAAAA?rs=1&pid=ImgDetMain"
+                            class="slide" style="height: 100px;">
+                        <img src="https://th.bing.com/th/id/OIP.7Q-N_4Jvv2VtRkVL-Y1RzAHaGR?rs=1&pid=ImgDetMain"
+                            class="slide" style="height: 100px;">
+                        <img src="https://th.bing.com/th/id/OIP.s2XllOPVDxw0m9xm9-GVbgHaF9?rs=1&pid=ImgDetMain"
+                            class="slide" style="height: 100px">
+                    </div>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+
+                <script src="script.js"></script>
             </div>
 
-            <!-- Mensagens -->
-            <div class="box mensagens">
+
+            <div class="box2 mensagens">
                 <h3>Mensagens e alertas</h3>
-                <div class="mensagem">João da Silva: Verificar pagamento do fornecedor</div>
-                <div class="mensagem">Márcio José: Houve atraso na entrega</div>
-                <div class="mensagem">João da Silva: Quando puder, gostaria de falar com você</div>
-                <div class="mensagem">Márcio José: Não encontrei o produto que preciso</div>
+                <div class="mensagem">Baiersk: Verificar pagamento do fornecedor</div>
+                <div class="mensagem">Vinicius: Houve atraso na entrega</div>
+                <div class="mensagem">Mariah: Quando puder, gostaria de falar com você</div>
+                <div class="mensagem">Correa: Não encontrei o produto que preciso</div>
             </div>
         </div>
+
+
         <!-- mariah -->
         <div class="container">
 
-            <div class="painel-esquerdo">
 
-                <div class="pedido" style="display: flex;">
-                    <p><strong>Nº Pedido #12345</strong></p>
-                    <div class="progress-bar">
-                        <div class="step completed">✔</div>
-                        <div class="line completed"></div>
-                        <div class="step completed">✔</div>
-                        <div class="line completed"></div>
-                        <div class="step in-progress">1</div>
-                        <div class="line"></div>
-                        <div class="step">○</div>
-                        <div class="line"></div>
-                        <div class="step">○</div>
+            <div class="painel-esquerdo">
+                <div class="pedido"
+                    style="display: flex; height: 100px; background-color: white; border-radius: 10px; padding-inline: 20px; width: 1120px;">
+                    <div style="padding-left: 5px;">
+                        <div
+                            style="display: flex; height: 100px; background-color: white; border-radius: 10px; padding-inline: 20px; width: 1120px;">
+                            <div style="padding: 10px; align-content: center; display: flex;">
+                                <p style="align-self: center; padding-right: 100px;"><strong>Nº Pedido
+                                        #12345</strong>
+                                </p>
+
+                                <div class="step completed" style="display: flex; align-items: center; ">
+                                    <div class="circle">✔</div>
+                                    <div class=" line completed"></div>
+                                    <div class="circle">✔</div>
+                                    <div class="line completed"></div>
+                                    <div class="step in-progress">3</div>
+                                    <div class="line"></div>
+                                    <div class="step">4</div>
+                                    <div class="line"></div>
+                                    <div class="step">5</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            style="display: flex; height: 100px; background-color: white; border-radius: 10px; padding-inline: 20px; width: 1120px;">
+                            <div style="padding: 10px; align-content: center; display: flex;">
+                                <p style="align-self: center; padding-right: 100px;"><strong>Nº Pedido
+                                        #12345</strong>
+                                </p>
+
+                                <div class="step completed" style="display: flex; align-items: center; ">
+                                    <div class="circle">✔</div>
+                                    <div class=" line completed"></div>
+                                    <div class="circle">✔</div>
+                                    <div class="line completed"></div>
+                                    <div class="step in-progress">3</div>
+                                    <div class="line"></div>
+                                    <div class="step">4</div>
+                                    <div class="line"></div>
+                                    <div class="step">5</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            style="display: flex; height: 10px; background-color: white; border-radius: 10px; padding-inline: 20px; width: 1120px; align-content: center;">
+                            <div style="padding: 10px; align-content: center; display: flex;">
+                                <p style="align-self: center; padding-right: 100px;"><strong>Nº Pedido
+                                        #12345</strong>
+                                </p>
+
+                                <div class="step completed" style="display: flex; align-items: center; ">
+                                    <div class="circle">✔</div>
+                                    <div class=" line completed"></div>
+                                    <div class="circle">✔</div>
+                                    <div class="line completed"></div>
+                                    <div class="step in-progress">3</div>
+                                    <div class="line"></div>
+                                    <div class="step">4</div>
+                                    <div class="line"></div>
+                                    <div class="step">5</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- <div class="progress-bar" style="display: flex;">
+                            <div class="step completed" style="display: flex;">
+                                <div class="circle">✔</div>
+                                <span class="step-label">Requisição</span>
+                            </div>
+                        </div> -->
+
+
+
                     </div>
-                    <!-- <div class="labels">
-                        <span>Requisição</span>
-                        <span>Vendedor</span>
-                        <span>Cotação</span>
-                        <span>PO / GR</span>
-                        <span>Processado</span>
-                    </div> -->
+
+
 
 
                 </div>
+
+
+
+                <!-- <div class="labels">
+                    <span>Requisição</span>
+                    <span>Vendedor</span>
+                    <span>Cotação</span>
+                    <span>PO / GR</span>
+                    <span>Processado</span>
+                </div> -->
+
+
             </div>
+        </div>
         </div>
 
 
