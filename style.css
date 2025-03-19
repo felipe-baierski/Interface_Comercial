@@ -130,7 +130,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: #e6effc;
+    background-color: white;
     padding: 15px;
     border-radius: 10px;
     width: 100%;
@@ -160,13 +160,13 @@
 
 .line {
     height: 5px;
-    background: #ccc;
+    background: white;
     width: 200px;
     /*tamanho da linha*/
 }
 
 .line.completed {
-    background: #28a745;
+    background: green;
     width: 200px;
     /*tamanho da linha*/
     max-width: 600px;
@@ -176,7 +176,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid #ccc;
+    border: 3px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,16 +185,20 @@
     background-color: white;
 }
 
-.completed .circle {
-    border-color: #28a745;
-    background-color: #28a745;
+.completed {
+    border-color: green;
+    background-color: green;
     color: white;
 }
 
-.in-progress .circle {
-    border-color: #f1c40f;
-    background-color: #f1c40f;
+.in-progress {
+    border-color: yellow;
+    background-color: yellow;
     color: white;
 }
 
+.outlined {
+    border: 2px solid blue
+
+}
 /* MARIAH ACABA AQUI */
